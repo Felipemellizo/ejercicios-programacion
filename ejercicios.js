@@ -11,4 +11,3 @@ console.log(typeof(nombre));
 console.log(typeof(edad));
 console.log(typeof(tengonovia));
 let nombre = duvan
-let
