@@ -42,3 +42,5 @@ console.log(personas);
 // poner en mayusculas los nombres
 let mayusculas = mujeres [3]. toUpperCase();
 console.log(mayusculas);
+
+
