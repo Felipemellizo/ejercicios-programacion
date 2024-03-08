@@ -47,7 +47,11 @@ console.log(" x ", i , )
 // tabla de multiplicar
 
 */ 
-for(leti=1; i<=50; i++) {
+for(let i=1; i<=50; i++) {
+
+}
+ /*  
+   
     console.log(i);
 }
 
@@ -55,9 +59,28 @@ for (let i =0 ; i <= 20 ; i++){
 console.log(i* 2);
 
 }
+*/
+// Tabala de multiplicar del 1 al 10 
 
+/*
+for(let i = 1; i<= 10; i++){
+    console.log ("tabla de multiplicar del ", i);
+    for(let j = 1; j <= 10; j++) {
+        console.log (i + "x"+ j + "=" + (i * j ));
+    }
+    console.log("\n");
+}
 
+*/
 
+// crear una funcion que calcule el IVA (19%) de un producto
+
+function calcularIVA (precioproducto) {
+   return (19 * precioproducto) / 100
+}
+
+let resultado = calcularIVA(500000)
+console.log(resultado)
 
 
 
